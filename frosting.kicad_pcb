@@ -9719,7 +9719,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D110"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "df2de5b1-548f-43fd-b9d7-77239d921407")
@@ -9731,7 +9731,7 @@
 			)
 		)
 		(property "Value" "3V3OK"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "1bdcc044-08f4-4426-95f8-5ffe770de09e")
 			(effects
@@ -9916,7 +9916,7 @@
 			(uuid "df790b6a-83b9-4b8e-b8de-cf14f9413b70")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c1aa01a6-97dd-42e5-8fda-de4d29f4cc4e")
 			(effects
@@ -22632,7 +22632,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D109"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "07c735ec-1d23-4184-9ab7-3542661619d3")
@@ -22644,7 +22644,7 @@
 			)
 		)
 		(property "Value" "5VOK"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "36473907-0858-4dbc-9728-450c54c3832e")
 			(effects
@@ -22829,7 +22829,7 @@
 			(uuid "c8e26845-913f-4289-8216-7e58e1d1dc6c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cd2da7f0-410a-43d9-89a2-c249449a241e")
 			(effects
@@ -27009,7 +27009,7 @@
 		(uuid "d380ce48-db27-4c5d-89f6-20e8b3933d35")
 		(at 151.1761 102.7336)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "47b54c72-146c-4153-b5ee-3eb84d734b62")
@@ -27021,7 +27021,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5c549273-1b9a-4856-93e9-2ce4faa10fcd")
@@ -49407,6 +49407,54 @@
 				(xy 114.886485 64.386511) (xy 115.070348 64.317933) (xy 115.087299 64.312956) (xy 115.279038 64.271246)
 				(xy 115.296536 64.26873) (xy 115.496682 64.254416) (xy 115.505528 64.2541) (xy 115.566992 64.2541)
 				(xy 143.232199 64.2541)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Mask")
+		(uuid "3f4a62b7-0e73-48aa-b11d-c39223bd4ff0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 202.8061 45.3636) (xy 93.2761 45.3636) (xy 93.2761 150.1336) (xy 101.4761 158.3336) (xy 200.6961 158.3336)
+				(xy 209.1561 149.8736) (xy 209.1561 58.4836) (xy 202.2761 51.6036) (xy 195.9661 51.6036) (xy 183.5161 64.0536)
+				(xy 183.5161 142.6536) (xy 181.8861 144.2836) (xy 162.0261 144.2836) (xy 160.0061 146.3036) (xy 126.9661 146.3036)
+				(xy 124.9661 144.3036) (xy 114.6361 144.3036) (xy 113.4261 143.0936) (xy 113.4261 64.9136) (xy 114.6561 63.6836)
+				(xy 182.5361 63.6836) (xy 196.1461 50.0736) (xy 196.1461 50.0336) (xy 197.2561 48.9236) (xy 201.0061 48.9236)
+				(xy 202.8061 47.1236)
+			)
+		)
+		(filled_polygon
+			(layer "B.Mask")
+			(island)
+			(pts
+				(xy 183.117877 143.154335) (xy 183.17381 143.196207) (xy 183.198227 143.261671) (xy 183.183375 143.329944)
+				(xy 183.178858 143.337556) (xy 183.109022 143.446223) (xy 183.09842 143.460387) (xy 182.922927 143.662917)
+				(xy 182.910417 143.675427) (xy 182.707887 143.85092) (xy 182.693723 143.861522) (xy 182.585056 143.931358)
+				(xy 182.518017 143.951043) (xy 182.450978 143.931358) (xy 182.405223 143.878554) (xy 182.395279 143.809396)
+				(xy 182.424304 143.74584) (xy 182.430336 143.739362) (xy 182.986862 143.182836) (xy 183.048185 143.149351)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
+			(island)
+			(pts
+				(xy 183.117877 143.154335) (xy 183.17381 143.196207) (xy 183.198227 143.261671) (xy 183.183375 143.329944)
+				(xy 183.178858 143.337556) (xy 183.109022 143.446223) (xy 183.09842 143.460387) (xy 182.922927 143.662917)
+				(xy 182.910417 143.675427) (xy 182.707887 143.85092) (xy 182.693723 143.861522) (xy 182.585056 143.931358)
+				(xy 182.518017 143.951043) (xy 182.450978 143.931358) (xy 182.405223 143.878554) (xy 182.395279 143.809396)
+				(xy 182.424304 143.74584) (xy 182.430336 143.739362) (xy 182.986862 143.182836) (xy 183.048185 143.149351)
 			)
 		)
 	)
